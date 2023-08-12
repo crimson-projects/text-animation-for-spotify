@@ -1,0 +1,65 @@
+@font-face {
+    font-family: "Le Murmure_Regular";
+    src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/61488/Le_Murmure-Regular_web.woff") format("woff"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/61488/Le_Murmure-Regular_web.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+  }
+  html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  html, body {
+    width: 100%;
+    height: 100%;
+  }
+  
+  body {
+    background-color: black;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+    background: black;
+    visibility: hidden;
+  }
+  
+  svg {
+    width: 100%;
+  }
+  
+  .svgText {
+    text-transform: uppercase;
+    font-size: 130px;
+    font-family: "Le Murmure_Regular";
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1;
+  }
+  
+  .textPath {
+    will-change: transform;
+    fill: white;
+    text-anchor: middle;
+  }
+  
+  .svgBandText {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family: verdana;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1;
+  }

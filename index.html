@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Text Animation for Spotify | Crimson </title>
+		
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+
+
+		<div class="container">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1720 1080">
+				<defs>
+					<path id="path" d="M0,540.5s-.5,294,228.5,294c242,0,386-723,859-723,485,0,595,721,861,721,226,0,225.5-292,225.5-292" fill="none" stroke="#d10000" stroke-miterlimit="10"/>
+					<path id="metallica" d="M1207,540c0,191.64-155.36,347-347,347S513,731.64,513,540,668.36,193,860,193,1207,348.36,1207,540Z" fill="#fff"/>
+				</defs>
+				<image class="record" width="634" height="634" transform="translate(543 223)" href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/61488/enter-sandman-record-2.jpg" />
+				<text class="svgText">
+					<textPath class="textPath" href="#path">Billie Eilish</textPath>
+					<textPath class="textPath" href="#path">50 Cent</textPath>
+					<textPath class="textPath" href="#path">Konsta</textPath>
+				</text>
+				<text class="svgBandText">
+					<textPath class="band" fill="white" href="#metallica" text-anchor="middle" startOffset="25%">Trend | 2022</textPath>
+				</text>
+			</svg>
+		</div>
+		
+
+		<script src="js/gsap.js"></script>
+		<script src="js/main.js"></script>
+		
+	</body>
+</html>
